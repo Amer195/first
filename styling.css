@@ -17,21 +17,48 @@ body {
     margin: 0;
   }
   
-  #para1{
-    margin: 20px auto; /* Center the section horizontally */
-    padding: 20px;
+  .box {
+    background-color: lightgray; /* Light gray background */
     border: 1px solid black; /* Light gray border */
-    border-radius: 5px; /* Rounded corners */
-    width: 500px; /* Adjust width as needed */
+    padding: 15px; /* Add padding for spacing */
+    margin: 10px; 
+    width: 33.33%;
+    padding-top: 0px;
+    padding-right: 0px;/* Add margin for separation */
+    display: inline-block;
+    box-sizing: border-box;
+    
   }
   
   h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    margin-top:0px;
+    float:right;
+    border: 1px solid black;
+    background-color: lightblue;
+    text-align: center;
+    padding: 5px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom: 0px;
+
   }
   
+
+  
+
+  .box-content{
+    padding:10px;
+    padding-bottom: 0px;
+    text-align:left;
+    margin-top:30px
+
+  }
+ 
+  
+  
   p {
-    line-height: 1.5; /* Adjust line spacing for better readability */
+    line-height: 1.5;
+     /* Adjust line spacing for better readability */
   }
   
   footer {
