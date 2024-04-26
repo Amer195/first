@@ -12,6 +12,9 @@ body {
     text-align: center;
   }
   
+
+
+  
   h1 {
     font-size: 2em;
     margin: 0;
@@ -25,8 +28,8 @@ body {
     width: 33.33%;
     padding-top: 0px;
     padding-right: 0px;/* Add margin for separation */
-    display: inline-block;
-    box-sizing: border-box;
+    
+    
     
   }
   
@@ -54,9 +57,14 @@ body {
 
   }
  
-  
-  
-  p {
+  .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+  }
+ p {
     line-height: 1.5;
      /* Adjust line spacing for better readability */
   }
@@ -67,4 +75,39 @@ body {
     text-align: center;
     padding: 10px;
   }
+@media (min-width: 768px) and (max-width: 991px) {
+.container {
+  display: block;
   
+}
+.nr1 {
+  width: 45%;  
+  float: right;
+  
+}
+.nr2{
+  width:45%;
+  
+  
+  
+}
+.nr3{
+  width:94%;
+  margin-top:30px;
+}
+ }
+
+
+
+
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    
+   }
+  .box{
+    width:94%;
+    
+
+  }
+}
